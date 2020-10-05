@@ -5,12 +5,15 @@ body{
 }
 
 h1{
+    background-color: rgb(245, 191, 201);
+    background-size: 100%;
     color: white;
     font-size: 30px;
 }
 
 nav{
    float: right;
+   margin-top: -60px;
 }
 
 ul li{
@@ -21,18 +24,19 @@ ul li{
 }
 
 h2{
+    text-align: center;
 font-size: 20px;
 color: white;
-display: inline-block;
 }
+
 p{
-    display: span;
-    background-color: white;
-    margin: 100px 40px;
     font-size: 20px;
-    color: rgb(253, 219, 225);
+    color: white;
+    padding: 40px;
+    text-align: center;
 }
 
 footer{
     color: white;
+    text-align: center;
 }
