@@ -1,10 +1,38 @@
 body{
     background-color: rgb(253, 219, 225);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-h1 {
+h1{
     color: white;
+    font-size: 30px;
 }
+
 nav{
-display: block;
+   float: right;
+}
+
+ul li{
+    display: inline;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+h2{
+font-size: 20px;
+color: white;
+display: inline-block;
+}
+p{
+    display: span;
+    background-color: white;
+    margin: 100px 40px;
+    font-size: 20px;
+    color: rgb(253, 219, 225);
+}
+
+footer{
+    color: white;
 }
