@@ -1,4 +1,4 @@
-'use strict'
+/*'use strict'
 var score = 0;
 
 var userName = prompt('Hello, what is your name?');
