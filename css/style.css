@@ -16,13 +16,14 @@ nav ul {
     text-align: center;
     background-color:white;
 height: 70px;
+box-shadow:0px 5px 5px 5px rgb(194, 148, 158);
 }
  .home {
      display: inline-block;
      margin: 30px 0px 30px 0px;
      padding: 0px 100px 20px 100px;
      font-style: oblique;
-     color: rgb(214, 163, 173);
+     color: rgb(236, 179, 192);
  }
 
  h2 {
@@ -80,4 +81,14 @@ display: block;
 text-align: center;
 font-style: italic;
 font-size: 15px;
+margin: 0px 0px 50px 0px;
 }
+
+.square{
+    display: block;
+    float: top;
+    float:right;
+    height: 1000px;
+    width: 200px;
+    background-color: white;  
+    }
