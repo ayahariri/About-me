@@ -5,16 +5,19 @@ var userName = prompt('Hello, what is your name?');
 console.log('userName =', userName);
 alert('Hello ' + userName + ', Would you like to get to know me?')
 
-var age = prompt('Do you think I am younger than 30years old?').toLowerCase();
-console.log('age', age)
-if (age == 'yes' || age == 'Y' || age == 'y') {
-    alert('You are correct!');
-    console.log('You are correct!');
-    score++;
-} else if (age == 'no' || age == 'N' || age == 'n') {
-    alert('Oops, do I look that old?');
-    console.log('Oops, do I look that old?');
+function question1 () {
+    var age = prompt('Do you think I am younger than 30years old?').toLowerCase();
+    console.log('age', age)
+    if (age == 'yes' || age == 'Y' || age == 'y') {
+        alert('You are correct!');
+        console.log('You are correct!');
+        score++;
+    } else if (age == 'no' || age == 'N' || age == 'n') {
+        alert('Oops, do I look that old?');
+        console.log('Oops, do I look that old?');
+    }
 }
+question1();
 
 var mac = prompt('Do you think I am addicted to McDonalds?').toLowerCase();
 console.log('mac', mac)
