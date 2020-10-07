@@ -1,9 +1,19 @@
 'use strict'
 var score = 0;
+var userName = " ";
+function getName(fName, sName)  {
+    
+    fName = prompt('Hello Please Enter your First Name ') ; 
+    sName = prompt('Hello Please Enter your Last Name ') ; 
+    userName = [fName, sName];    
 
-var userName = prompt('Hello, what is your name?');
-console.log('userName =', userName);
+// console.log(answer) ;
 alert('Hello ' + userName + ', Would you like to get to know me?')
+return userName ;
+}
+getName();
+
+
 
 function question1 () {
     var age = prompt('Do you think I am younger than 30years old?').toLowerCase();
@@ -17,10 +27,12 @@ function question1 () {
         console.log('Oops, do I look that old?');
     }
 }
+
 question1();
 
+function question2() {  
 var mac = prompt('Do you think I am addicted to McDonalds?').toLowerCase();
-console.log('mac', mac)
+console.log('mac', mac) 
 if (mac == 'yes' || mac == 'Y' || mac == 'y') {
     alert('You are unfortunately correct!');
     console.log('You are unfortunately correct!');
@@ -29,7 +41,11 @@ if (mac == 'yes' || mac == 'Y' || mac == 'y') {
     console.log('Sorry! I am in fact a Mac addict!');
     score++;
 }
+}
 
+question2() ;
+
+function videogames() {
 var videogames = prompt('Do I like video games?').toLowerCase();
 console.log('videogames', videogames)
 if (videogames == 'yes' || videogames == 'Y' || videogames == 'y') {
@@ -40,7 +56,10 @@ if (videogames == 'yes' || videogames == 'Y' || videogames == 'y') {
     alert('Sorry! You are wrong!');
     console.log('Sorry! You are wrong!');
 }
+}
+videogames() ;
 
+function birdquestion() {
 var birds = prompt('Do I like birds?').toLowerCase();
 console.log('birds', birds)
 if (birds == 'yes' || birds == 'Y' || birds == 'y') {
@@ -51,7 +70,9 @@ if (birds == 'yes' || birds == 'Y' || birds == 'y') {
     console.log('You are totally right!');
     score++;
 }
-
+}
+birdquestion() ; 
+function age(){
 for (var i = 0; i < 5; i++) {
     var actualage = prompt('Now, how old do you think I actually am?');
     console.log(actualage);
@@ -68,10 +89,13 @@ for (var i = 0; i < 5; i++) {
         console.log('Too Low!')
     }
 }
-
+// return age ; 
+}
+age() ;
 var correctanswer = ['call of duty', 'black ops', 'drive', 'smash brothers', 'gta', 'drive','mario kart', 'battlefied', 'pepsi man'];
 
 //j = 1
+function games() {
 for (var j = 1; j <= 6; j++) {
     var topten = prompt('What do you think are my favorite video games?');
     //call
@@ -87,7 +111,9 @@ for (var j = 1; j <= 6; j++) {
         }
     }
 }
+}  
+games() ;
 
 alert('My favorite games are the following: call of duty, black ops, battlefield, drive, burnout, smash brothers, mario kart, crash bandicoot, gta, pepsi man')
 alert('You scored ' + score + ' on this quiz. Hope you enjoyed it!');
-alert('Welcome to my page ' + userName + '!')
+alert('Welcome to my page ' + userName + '!');
