@@ -1,3 +1,3 @@
 # About-me
 
-This is a website that will cover facts about me.
+This is my personal about-me website.
