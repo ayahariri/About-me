@@ -1,14 +1,14 @@
-'use strict'
+/*'use strict'
 var score = 0;
 var userName = " ";
 function getName(fName, sName)  {
     
-    fName = prompt('Hello Please Enter your First Name ') ; 
-    sName = prompt('Hello Please Enter your Last Name ') ; 
+    fName = prompt('Hello, please Enter your First Name ') ; 
+    sName = prompt('Hello, please Enter your Last Name ') ; 
     userName = [fName, sName];    
 
 // console.log(answer) ;
-alert('Hello ' + userName + ', Would you like to get to know me?')
+alert('Hello ' + userName + ' Would you like to get to know me?')
 return userName ;
 }
 getName();
@@ -89,8 +89,9 @@ for (var i = 0; i < 5; i++) {
         console.log('Too Low!')
     }
 }
-// return age ; 
+
 }
+
 age() ;
 var correctanswer = ['call of duty', 'black ops', 'drive', 'smash brothers', 'gta', 'drive','mario kart', 'battlefied', 'pepsi man'];
 
@@ -117,3 +118,4 @@ games() ;
 alert('My favorite games are the following: call of duty, black ops, battlefield, drive, burnout, smash brothers, mario kart, crash bandicoot, gta, pepsi man')
 alert('You scored ' + score + ' on this quiz. Hope you enjoyed it!');
 alert('Welcome to my page ' + userName + '!');
+/*
